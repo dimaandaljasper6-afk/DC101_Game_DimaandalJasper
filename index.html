@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flappy Fried Chicken</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-wrapper">
+
+  <!-- START -->
+  <div class="screen active" id="start">
+    <h1>🍗 Flappy Fried Chicken</h1>
+    <p>Jump over obstacles. Avoid the lava.</p>
+    <button onclick="startGame()">Start</button>
+  </div>
+
+  <!-- GAME -->
+  <div class="screen" id="game">
+    <div class="hud">
+      <span>Score: <b id="score">0</b></span>
+      <span>High: <b id="high">0</b></span>
+    </div>
+
+    <div class="world">
+      <div id="clouds"></div>
+
+      <div id="chicken">
+        <div class="head">
+          <span class="eye left"></span>
+          <span class="eye right"></span>
+          <span class="beak"></span>
+        </div>
+        <div class="leg left"></div>
+        <div class="leg right"></div>
+      </div>
+
+      <div class="lava"></div>
+    </div>
+  </div>
+
+  <!-- GAME OVER -->
+  <div class="screen" id="over">
+    <h2>🔥 You got cooked</h2>
+    <p>Score: <b id="finalScore">0</b></p>
+    <p>High Score: <b id="finalHigh">0</b></p>
+    <button onclick="restart()">Restart</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
