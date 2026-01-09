@@ -69,6 +69,6 @@ Add new obstacle types or power-ups for extra fun.
 
 🎉 Credits
 
-Built by: Your Name
+Built by: Dimaandal, Jasper P.
 
 Inspired by classic Flappy Bird gameplay with a fried chicken twist.
