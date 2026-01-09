@@ -1,4 +1,4 @@
-🍗 Flappy Fried Chicken: Lava Run
+🍗 Flappy Fwayd Chicken: Lava Run
 
 Overview
 
